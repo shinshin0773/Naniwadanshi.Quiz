@@ -8,19 +8,30 @@
 </head>
 <body>
   <section class="container">
-
     <div id="startshow" class="start">
-      <h1 class="startH1">長尾謙杜１０問クイズ</h1>
+      <h1 class="startH1">なにわ男子<span class="startH1span">検定</span></h1>
+      <h2 class="startH2">１級合格目指して頑張れるかな？</h2>
       <div class="img">
-      <img src="img/長尾.jpg" alt="長尾" class="startimg">
+        <img src="img/なにわ.JPG" alt="なにわ" class="startimg">
       </div>
       <div id="coverbtn" class="disabled startbtn">START</div>
     </div>
+    
+    <div class="head">
+      <h1 id="headh1" class="headH1">３級</h1>
+      <h1 id="headh2" class="headH2">準２級</h1>
+      <h1 id="headh3" class="headH3">２級</h1>
+      <h1 id="headh4" class="headH4">１級</h1>
 
+      <p id="currentNum" class="current"></p>
+    </div>
     <section id="questionShow" class="hidden question-text">
       <p id="question"></p>
       <ul id="choices"></ul>
-      <div id="btn" class="disabled">Next</div>
+      <div id="btn" class="disabled btn1hidden">Next</div>
+      <div id="btn2" class="disabled2 btn2hidden">NEXT</div>
+      <div id="btn3" class="disabled3 btn3hidden">NEXT</div>
+      <div id="btn4" class="disabled4 btn4hidden">NEXT</div>
     </section>
 
     <section id="result" class="hidden">
@@ -28,7 +39,10 @@
       <h2 class="h2text"></h2>
       <p></p>
       <a href="">もう一回チャレンジしますか?</a>
-     </section>
+      <div id="nextbtn2" class="nextstage2">準２級にすすみますか？</div>
+      <div id="nextbtn3" class="nextstage3">２級に進みますか？</div>
+      <div id="nextbtn4" class="nextstage4">１級にチャレンジしてみますか？</div>
+    </section>
   </section>
 
   <script src="mains.js"></script>
