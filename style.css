@@ -17,7 +17,6 @@ body {
   border-radius: 4px;
   padding: 16px;
   position: relative;
-
 }
 
 #question {
@@ -39,14 +38,31 @@ body {
   cursor: pointer;
 }
 
-.startH1 {
+.startH1{
+  margin: 0 atuo;
+  padding: 0;
+  text-align: center; 
+  font-size: 40px;
+  color: yellow;
+  text-shadow:1px 0 5px black;
+}
+
+.startH1span {
+  margin: 0 atuo;
+  padding: 0;
+  text-align: center; 
+  font-size: 30px;
+  color: #FFFF00;
+  text-shadow:3px 0 5px red;
+  font-size: 40px;
+}
+.startH2 {
   margin: 0 atuo;
   padding: 0;
   text-align: center; 
   font-size: 30px;
   color: yellow;
   text-shadow:1px 0 5px black;
-  
 }
 .startbtn {
   margin: 20px;
@@ -88,7 +104,7 @@ body {
   content: '....不正解です';
 }
 
-#btn ,#result > a,#coverbtn{
+#btn ,#result > a,#coverbtn,#btn2,#btn3,#btn4{
   background: #3498db;
   padding: 8px;
   border-radius: 4px;
@@ -98,7 +114,7 @@ body {
   box-shadow: 0 4px 0 #2880b9;
 }
 
-#btn.disabled {
+#btn.disabled,#btn2.disabled2,#btn3.disabled3,#btn4.disabled4{
   background: #ccc;
   box-shadow: 0 4px 0 #bbb;
   opacity: 0.7;
@@ -110,7 +126,7 @@ body {
   background: #fff;
   padding: 30px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  top: 50px;
+  top: 15px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -140,4 +156,47 @@ body {
 }
 #btn {
   margin-top: 40px;
+}
+.nextstage2{
+  display: none;
+}
+#nextbtn2,#nextbtn2,#nextbtn3,#nextbtn4{
+  margin-top:20px;
+  font-weight:bold;
+  background-color:yellow;
+  color: black;
+  box-shadow: 0 4px 0 #0a3704;
+  border-radius: 4px;
+  padding: 8px;
+
+}
+.nextstage2,.nextstage3,.nextstage4 {
+  display: none;
+}
+.btn1hidden,.btn2hidden,.btn3hidden,.btn4hidden{
+  display: none;
+}
+.headH1,.headH2,.headH3,.headH4,.headH5 {
+   display: none;
+   width: 600px;
+}
+
+.head {
+  color: rgb(237, 30, 30);
+}
+.head > h1 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.current {
+  display: none;
+}
+.head > p {
+  font-size: 20px;
+  text-align: end;
+  padding-right: 18px;
+  padding-top: 0;
+  margin: 0px;
+  color: black;
 }
