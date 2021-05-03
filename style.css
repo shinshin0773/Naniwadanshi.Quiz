@@ -200,3 +200,8 @@ body {
   margin: 0px;
   color: black;
 }
+.yellow {
+  color: yellow;
+  font-weight: bold;
+  text-shadow:1px 0 5px black;
+}
